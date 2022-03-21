@@ -228,15 +228,6 @@ C:'\Program Files (x86)'\Nmap\nmap.exe  -p 443 --script ssl-heartbleed $hosts/$s
 
 
 
-cmd.exe /c dir c:\|Tee-Object C:\DAS_Tools\SecurityRisks\HeartBleed$hosts.txt
-
-write -------------------------------------------------------------------
-write --------------------- Scanning for HeartBleed ---------------------       
-write -------------------------------------------------------------------
-C:'\Program Files (x86)'\Nmap\nmap.exe  -p 443 --script ssl-heartbleed $hosts/$sub |Tee-Object C:\DAS_Tools\SecurityRisks\HeartBleed$hosts.txt
-
-
-
 
 cmd.exe /c dir c:\|Tee-Object C:\DAS_Tools\SecurityRisks\cve2020-28017-through-28026-21-$hosts.txt
 
