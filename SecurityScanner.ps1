@@ -1,4 +1,4 @@
-
+#run this powershell as ADMIN account
 
 #install DSinternals from manually from https://github.com/MichaelGrafnetter/DSInternals
 Install-Module DSInternals -Force
@@ -110,7 +110,7 @@ write --------------------------------------------------------------------------
 write -------------!!! UPDATE NMAP Database !!!---------------------
 write -----------------------------------------------------------------------------------------------
 
-#Nmap  --script-updatedb
+Nmap  --script-updatedb
 
 
 write -----------------------------------------------------------------------------------------------
